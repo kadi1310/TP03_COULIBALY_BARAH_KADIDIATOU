@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 févr. 2021, 11:21:54
+    Author     : coulibaly barah
+*/
+/* Général ------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+/* Forms --------------------------------------------------------------------------------------- */
+
+form label {
+    float: left;
+    width: 200px;
+    margin: 3px 0px 0px 0px;
+    font-weight: bold;
+}
+form h2{
+     color:blue;
+}
+form input[type=text] {
+    width: 50%;
+  padding: 10px 10px;
+  margin: 4px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #3CBC8D;
+  color: white;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  padding: 10px 10px;
+  font-weight: bold;
+ 
+}
+
+form input.sansLabel {
+    margin-left: 200px;
+    
+}
+
+form .requis {
+    color: #c00;
+}
